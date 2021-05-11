@@ -1,6 +1,6 @@
 # strona sklepomaty.com
 
-![Agrotax](./sklepomaty.jpg)
+![Sklepomaty](./sklepomaty.png)
 
 ## użyte technologie.
 
