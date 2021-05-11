@@ -6,16 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Sklepomaty</title>
-    <!-- UIkit CSS -->
-    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.6.21/dist/css/uikit.min.css" /> -->
+    <meta property="og:title" content="Twój własny Sklepomat" />
+    <meta property="og:url" content="http://sklepomaty.com" />
+    <meta property="og:description" content="Pozyskaj
+    nowych klientów. Sprzedawaj
+    więcej online. Zwiększaj
+    sprzedaż.Otwieraj łatwo
+    nowe punkty handlowe. Oszczędzaj na kosztach
+    pracowniczych" />
+    <meta property="og:image" content="http://sklepomaty.com/images/sklepomaty_fb.jpg" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700&display=swap"
         rel="stylesheet">
-
-    <!-- UIkit JS -->
-    <!-- <script src="https://cdn.jsdelivr.net/npm/uikit@3.6.21/dist/js/uikit.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/uikit@3.6.21/dist/js/uikit-icons.min.js"></script> -->
     <link rel="stylesheet" href="css/app.css" />
 </head>
 
@@ -28,8 +35,8 @@
         <div class="uk-navbar-left">
             <ul class="uk-navbar-nav">
                 <li>
-                    <a class="uk-navbar-item uk-logo" href="#"><img src="./images/logo.png" alt="logo sklepomaty.com"
-                            width="442" height="76"></a>
+                    <a class="uk-navbar-item uk-logo" href="#"><img src="./images/sklepomaty_logo.svg"
+                            alt="logo sklepomaty.com" width="442" height="76"></a>
                 </li>
             </ul>
         </div>
@@ -180,10 +187,10 @@
     <section class="uk-section" id="twoj-wlasny-sklepomat">
     <div class="uk-container" data-uk-scrollspy="target: > div; cls: uk-animation-fade; delay: 300">
         <header>
-            <h2 class="uk-text-center uk-padding-small uk-padding-remove-top uk-margin-remove-top"><span
+            <h1 class="uk-text-center uk-padding-small uk-padding-remove-top uk-margin-remove-top"><span
                     class="uk-text-bolder">Twój własny
                 </span><span class="text-gold">Sklepomat</span>?
-            </h2>
+            </h1>
         </header>
         <span class="divider uk uk-margin uk-margin-bottom"></span>
         <div class="uk-flex uk-flex-around uk-width-2-3 uk-margin-auto uk-text-center">
@@ -233,21 +240,21 @@
         </div>
     </div>
 </section>
-    <section class="uk-section uk-height-large@l uk-background-cover uk-light uk-flex" data-uk-parallax="bgy: -200"
-    style="background-image: url('./images/orange_background.jpg');" id="dla-kogo">
+    <section class="section-orange uk-section uk-height-large@l uk-background-cover uk-light uk-flex"
+    data-uk-parallax="bgy: -200" style="background-image: url('./images/orange_background.jpg');" id="dla-kogo">
     <div class="uk-width-expand">
         <div class="uk-container">
             <header>
                 <h2
-                    class="uk-text-center uk-margin-auto uk-margin-auto-vertical uk-padding-small uk-padding-remove-top uk-margin-remove-top">
+                    class="uk-text-center uk-margin-auto uk-margin-auto-vertical uk-padding-small uk-padding-remove-top uk-margin-remove-top uk-text-bold">
                     Dla
                     kogo?
                 </h2>
             </header>
-            <span class="divider divider--white uk uk-margin uk-margin-bottom"></span>
+            <span class="divider divider--white uk uk-margin uk-margin-large-bottom"></span>
             <div class="uk-child-width-expand@l uk-flex-center uk-text-center" data-uk-grid>
                 <div class="">
-                    <div class="uk-text-left uk-padding-large uk-padding-remove-right">
+                    <div class="uk-text-left uk-padding-small">
                         <ul class="uk-list">
                             <li><img src="./images/check.svg" alt="" width="30" class="uk-margin-right">Sklepy
                                 spożywcze</li>
@@ -261,7 +268,7 @@
                     </div>
                 </div>
                 <div>
-                    <div class="uk-text-left uk-padding-large uk-padding-remove-right">
+                    <div class="uk-text-left uk-padding-small">
                         <ul class="uk-list">
                             <li><img src="./images/check.svg" alt="" width="30" class="uk-margin-right">Apteki
                             </li>
@@ -275,7 +282,7 @@
                     </div>
                 </div>
                 <div>
-                    <div class="uk-text-left uk-padding-large uk-padding-remove-right">
+                    <div class="uk-text-left uk-padding-small">
                         <ul class="uk-list">
                             <li><img src="./images/check.svg" alt="" width="30" class="uk-margin-right">Księgarnie</li>
                             <li><img src="./images/check.svg" alt="" width="30" class="uk-margin-right">Drogerie
@@ -288,13 +295,19 @@
                     </div>
                 </div>
             </div>
+            <div class="uk-flex uk-flex-center bounce">
+                <div class="uk-card uk-card-body uk-padding-large uk-padding-remove-bottom">
+                    <img src="./images/arrow_orange.svg" width="80" alt="strzałka skierowana do dołu">
+                </div>
+            </div>
         </div>
     </div>
 </section>
     <section class="uk-section" id="jak-to-dziala">
     <div class="uk-container uk-container-small" data-uk-scrollspy="target: > div; cls: uk-animation-fade; delay: 300">
         <header>
-            <h2 class="uk-text-center uk-padding-small uk-padding-remove-top uk-margin-remove-top">Jak to działa?</h2>
+            <h2 class="uk-text-center uk-padding-small uk-padding-remove-top uk-margin-remove-top uk-text-bold">Jak to
+                działa?</h2>
         </header>
         <span class="divider uk uk-margin uk-margin-bottom"></span>
         <div class="uk-flex-middle" data-uk-grid>
@@ -369,17 +382,17 @@
                 </span><span class="text-gold">Sklepomat</span></h2>
         </header>
         <span class="divider uk uk-margin uk-margin-bottom"></span>
-        <h3 class="uk-padding-small">Każdy Sklepomat składa się z <span class="uk-text-bold">modułu sterującego</span> -
+        <p class="uk-padding-small">Każdy Sklepomat składa się z <span class="uk-text-bold">modułu sterującego</span> -
             <span class="uk-text-bold text-gold">MASTER</span> oraz dowolnej
             ilości <span class="uk-text-bold">modułów ze skrytkami</span> - <span
                 class="uk-text-bold text-gold">SLAVE</span>
-        </h3>
+        </p>
         <div class="uk-padding-small" data-uk-grid>
             <div class="uk-width-1-2@m uk-text-right uk-card uk-card-body">
                 <img src="./images/master.png" data-uk-svg alt="Image">
             </div>
             <div class="uk-width-1-2@m">
-                <h4 class="uk-text-bold">Kolumna <span class="text-gold">MASTER</span></h4>
+                <p class="uk-text-bold fs-48">Kolumna <span class="text-gold">MASTER</span></p>
                 <p>Zawiera interfejs użytkownika, m.in. funkcję płatności bezgotówkowych,
                     Czytnik kodów QR służący do odbioru zamówienia
                 </p>
@@ -390,7 +403,7 @@
                     <img src="./images/slave.png" data-uk-svg alt="Image">
                 </div>
                 <div class="uk-width-1-2@m">
-                    <h4 class="uk-text-bold">Kolumna <span class="text-gold">SLAVE</span></h4>
+                    <p class="uk-text-bold fs-48">Kolumna <span class="text-gold">SLAVE</span></p>
                     <p>Kolumna zawierająca półki odbiorcze, o szerokości do 45 cm
                         Ilość półek odbiorczych w kolumnie: 3 - 17
                         Dostępne półki odbiorcze: małe, średnie, duże
@@ -429,13 +442,15 @@
                 </div>
             </div>
         </div>
-        <h2 class="uk-text-center">
-            <span class="uk-text-bold">Przykładowy
-            </span><span class="text-gold">Sklepomat</span>
+        <div class="uk-card uk-card-body">
+            <h2 class="uk-text-left">
+                <span class="uk-text-bold">Przykładowy
+                </span><span class="text-gold">Sklepomat</span><span class="hr"></span>
+            </h2>
             <span class="uk-display-block">Kompletne urządzenie składające się z: <span class="uk-text-bold">1
                     kolumna <span class="text-gold">MASTER</span> + 10 kolumn
                     <span class="text-gold">SLAVE</span></span></span>
-        </h2>
+        </div>
         <div class="uk-flex uk-flex-center">
             <div class="uk-card uk-card-body">
                 <img src="./images/middle.png" alt="">
@@ -463,11 +478,11 @@
                         <div>
                             <div class="uk-text-center uk-text-left@m uk-padding-small">
                                 <h2
-                                    class="uk-padding-small uk-padding-remove-top uk-padding-remove-left uk-margin-remove-top">
+                                    class="uk-padding-small uk-padding-remove-top uk-padding-remove-left uk-margin-remove-top uk-text-bold">
                                     Kontakt:</h2>
                                 <span class="divider uk uk-margin uk-margin-bottom"></span>
-                                <img src="./images/logo.png" alt="logo sklepomaty.com" width="288" height="48"
-                                    class="uk-padding-small uk-padding-remove-left">
+                                <img src="./images/sklepomaty_logo.svg" alt="logo sklepomaty.com" width="288"
+                                    height="48" class="uk-padding-small uk-padding-remove-left">
                                 <p>ul.Nowosadecka 62
                                     <span class="uk-display-block">30-683 Kraków</p>
                                 </p>
