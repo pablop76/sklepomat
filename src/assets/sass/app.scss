@@ -1,0 +1,15 @@
+// Base
+@import "./base/variables";
+@import "./base/typography";
+
+// Components
+@import "./components/uikit.min";
+@import "./components/nav";
+@import "./components/content";
+@import "./components/slider";
+@import "./components/sticky-note";
+@import "./components/cookies";
+
+// Base main
+@import "./base/base";
+@import "./base/animate";

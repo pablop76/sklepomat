@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Sklepomaty</title>
+    <!-- UIkit CSS -->
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.6.21/dist/css/uikit.min.css" /> -->
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- UIkit JS -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/uikit@3.6.21/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.6.21/dist/js/uikit-icons.min.js"></script> -->
+    <link rel="stylesheet" href="css/app.css" />
+</head>
+
+<body>
+    <div class="uk-container uk-container-xlarge">
+        {% include "nav.html" %}
+        {% include "slider.html" %}
+        {% block content %}{% endblock %}
+        {% include "kontakt.html" %}
+    </div>
+
+    <script src="js/main.js"></script>
+
+    <script>
+        gdprCookieNotice({
+            statement: 'https://www.nold.io',
+            performance: ['JSESSIONID'],
+            analytics: ['_gat', 'ga'],
+            marketing: ['SSID'],
+            statement: 'https://google.com', //Link to your cookie statement page
+        });
+    </script>
+
+    <script type="text/javascript">
+        document.addEventListener('gdprCookiesEnabled', function (e) {
+            if (e.detail.marketing) {
+                console.log('marketing cookies are enabled');
+            }
+        });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,41 @@
+/*------------------*
+# Nav
+*------------------*/
+
+.uk-navbar-nav {
+    li {
+        a {
+            text-transform: initial;
+            font-family: $base-font-family;
+            font-weight: 300;
+            font-size: $base-font-size;
+            color: $color-black;
+            white-space: nowrap;
+        }
+    }
+}
+
+.uk-navbar-container:not(.uk-navbar-transparent) {
+    background: $color-white;
+}
+
+@media only screen and (max-width: 1200px) {
+    .uk-navbar-nav {
+        li {
+            a {
+                font-size: 20px;
+            }
+        }
+
+        img {
+            width: 640px;
+        }
+    }
+
+    .uk-navbar {
+
+        img.logo {
+            width: 300px;
+        }
+    }
+}

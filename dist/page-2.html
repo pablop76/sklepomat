@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Sklepomaty</title>
+    <!-- UIkit CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.6.21/dist/css/uikit.min.css" />
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- UIkit JS -->
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.6.21/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.6.21/dist/js/uikit-icons.min.js"></script>
+    <link rel="stylesheet" href="css/app.css" />
+</head>
+
+<body>
+    <div class="uk-container uk-container-xlarge">
+        <header>
+    <!-- Main Navbar -->
+    <nav class="uk-navbar-container uk-padding-small" data-uk-navbar>
+        <div class="uk-navbar-left">
+            <ul class="uk-navbar-nav">
+                <li class="uk-active">
+                    <a class="uk-navbar-item uk-logo" href="#"><img src="./images/logo.png" alt="" data-uk-svg></a>
+                </li>
+            </ul>
+        </div>
+        <div class="uk-navbar-right">
+            <ul class="uk-navbar-nav uk-visible@s">
+                <li>
+                    <a href="#">
+                        Twój własny sklepomat?
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        Dla kogo?
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        Jak działa?
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        Ofetra
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        Kontakt
+                    </a>
+                </li>
+            </ul>
+            <a href="#" class="uk-navbar-toggle uk-hidden@s" uk-navbar-toggle-icon uk-toggle="target: #sidenav"></a>
+        </div>
+    </nav>
+</header>
+
+<div id="sidenav" uk-offcanvas="flip: true" class="uk-offcanvas">
+    <div class="uk-offcanvas-bar">
+        <ul class="uk-nav">
+            <li>
+                <a href="#">
+                    Twój własny sklepomat?
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    Dla kogo?
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    Jak działa?
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    Ofetra
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    Kontakt
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
+        <div class="slider uk-position-relative uk-visible-toggle" tabindex="-1" uk-slideshow="animation: push;max-height: 460">
+
+    <ul class="uk-slideshow-items">
+        <li>
+            <img src="./images/slider_1.jpg" alt="" uk-cover>
+            <div
+                class="uk-position-large uk-position-center-left uk-text-right uk-light slider__content slider__content-left">
+                <h2 class="uk-margin-remove">Kupujemy OnLine</h2>
+                <p class="uk-margin-remove">w ulubionym sklepie</p>
+            </div>
+        </li>
+        <li>
+            <img src="./images/slider_2.jpg" alt="" uk-cover>
+            <div
+                class="uk-position-large uk-position-center-right uk-text-left uk-light slider__content slider__content-right">
+                <h2 class="uk-margin-remove">Kupujemy OnLine</h2>
+                <p class="uk-margin-remove">w ulubionym sklepie</p>
+            </div>
+        </li>
+        <li>
+            <img src="./images/slider_3.jpg" alt="" uk-cover>
+            <div
+                class="uk-position-large uk-position-center-right uk-text-left uk-light slider__content slider__content-right">
+                <h2 class="uk-margin-remove">Kupujemy OnLine</h2>
+                <p class="uk-margin-remove">w ulubionym sklepie</p>
+            </div>
+        </li>
+        <li>
+            <img src="./images/slider_4.jpg" alt="" uk-cover>
+            <div
+                class="uk-position-large uk-position-center-right uk-text-left uk-light slider__content slider__content-right">
+                <h2 class="uk-margin-remove">Kupujemy OnLine</h2>
+                <p class="uk-margin-remove">w ulubionym sklepie</p>
+            </div>
+        </li>
+    </ul>
+
+    <div class="uk-light">
+        <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous
+            uk-slideshow-item="previous"></a>
+        <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next
+            uk-slideshow-item="next"></a>
+    </div>
+
+</div>
+
+        
+<div class="main-content">
+    <div class="page-width">
+        <h1>Page 2</h1>
+    </div>
+</div>
+
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
