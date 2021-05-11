@@ -26,6 +26,10 @@
 
 ## praca z projektem
 
-1. uruchomienie
+1. uruchomienie / developer
 
 - gulp
+
+2. produkcja
+
+- gulp build
