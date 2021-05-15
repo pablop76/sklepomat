@@ -1,0 +1,45 @@
+<header class="uk-visible@m" data-uk-sticky="animation: uk-animation-slide-top; show-on-up:true">
+    <!-- Main Navbar -->
+    <nav class="uk-navbar-container uk-padding-small" data-uk-navbar
+        data-uk-scrollspy="cls: uk-animation-slide-bottom; target: div; delay: 200;">
+        <div class="uk-navbar-left">
+            <ul class="uk-navbar-nav">
+                <li>
+                    <a class="uk-navbar-item uk-logo" href="/"><img src="./images/sklepomaty-logo.svg"
+                            alt="logo sklepomaty.com" width="442" height="76"></a>
+                </li>
+            </ul>
+        </div>
+        <div class="uk-navbar-right">
+            <ul class="uk-navbar-nav uk-visible@s">
+                {% include "nav.html" %}
+            </ul>
+            <a href="#" class="uk-navbar-toggle uk-hidden@s" data-uk-navbar-toggle-icon
+                data-uk-toggle="target: #sidenav"></a>
+        </div>
+    </nav>
+</header>
+<header class="uk-hidden@m">
+    <nav class="uk-navbar uk-navbar-container">
+        <div class="uk-navbar-center">
+            <div class="uk-flex uk-flex-column uk-padding-small">
+                <img src="./images/sklepomaty-logo.svg" alt="logo sklepomaty.com" width="442" height="76" class="logo">
+                <a class="uk-navbar-toggle uk-flex-first@l" href="#" data-uk-toggle="target: #offcanvas-nav-primary">
+                    <span data-uk-navbar-toggle-icon></span> <span class="uk-margin-small-left"></span><span
+                        class="uk-margin-small-right" data-type="button">Menu</span>
+                </a>
+            </div>
+        </div>
+    </nav>
+
+
+    <div id="offcanvas-nav-primary" data-uk-offcanvas="overlay: true;">
+        <div class="uk-offcanvas-bar uk-flex uk-flex-column">
+            <button class="uk-offcanvas-close" data-type="button" data-uk-close></button>
+            <ul class="uk-nav uk-nav-primary uk-nav-center uk-margin-auto-vertical">
+                {% include "nav.html" %}
+            </ul>
+
+        </div>
+    </div>
+</header>
