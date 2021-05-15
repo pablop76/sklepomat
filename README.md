@@ -30,13 +30,13 @@
 
 - gulp
 
- - pliki do edycji znajdują się w katalogu src/templates/ opisane według nazw sekcji na stronie
+     pliki do edycji znajdują się w katalogu src/templates/ opisane według nazw sekcji na stronie
 
 
 2. uruchomienie / produkcja
 
 - gulp build
 
-    - Paczka produkcyjna tworzona jest w katalogu docs
-    - Obrazki prznoszone są automatycznie wyłacznie z katalogu images, więc obrazki takie jak favicon należy kopiować ręcznie w przypadku zmiany.
-    - Pliki produkcyjne do przeniesienia na serwer znajdują się w katalogu docs.
+     Paczka produkcyjna tworzona jest w katalogu docs
+     Obrazki prznoszone są automatycznie wyłacznie z katalogu images, więc obrazki takie jak favicon należy kopiować ręcznie w przypadku zmiany.
+     Pliki produkcyjne do przeniesienia na serwer znajdują się w katalogu docs.
